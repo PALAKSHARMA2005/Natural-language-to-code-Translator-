@@ -1,0 +1,20 @@
+#requirements.txt
+# --- Core Framework ---
+streamlit==1.39.0
+
+# --- Google Gemini SDK ---
+google-generativeai==0.8.5
+
+# --- Optional: For NLP and regex cleaning ---
+regex>=2024.4.16
+
+# --- Optional: For code syntax validation ---
+asttokens>=2.4.1
+
+# --- Optional: For structured prompts (if you plan LangChain extension) ---
+langchain==0.3.4
+langchain-google-genai==1.0.3
+langchain-core==0.3.3
+
+# --- For secure environment management ---
+python-dotenv>=1.0.1
