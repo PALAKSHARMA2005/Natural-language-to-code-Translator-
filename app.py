@@ -21,7 +21,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 # ----------------------------
 st.set_page_config(page_title="Natural Language to Code Translator", layout="centered")
 st.title("🧠 Natural Language ➡ Code Translator")
-st.markdown("Convert natural language instructions into Python or JavaScript code using *Gemini 2.5 Flash* ⚡")
+st.markdown("Convert natural language instructions into Python or JavaScript code⚡")
 
 # ----------------------------
 # 🧩 Helper Function — Clean Gemini Output
@@ -107,4 +107,4 @@ if st.session_state.generated_code:
 # ----------------------------
 # 🎨 Footer
 # ----------------------------
-st.markdown("---\n*Built by Team AI Coders 🧩 | Powered by Google Gemini 2.5 Flash + Streamlit*")
+st.markdown("---\n*Built by Team Ashmi, Palak , Ragini*")
